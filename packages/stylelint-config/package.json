@@ -1,0 +1,34 @@
+{
+  "name": "@hex-labs/stylelint-config",
+  "version": "0.0.1",
+  "description": "HexLabs shareable Stylelint config",
+  "private": false,
+  "homepage": "https://github.com/hackgt/config",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackgt/config",
+    "directory": "packages/stylelint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/hackgt/config/issues"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelintrc"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "npm run test",
+    "test": "tape __tests__/*.js"
+  },
+  "peerDependencies": {
+    "stylelint": ">= 13.9"
+  },
+  "devDependencies": {
+    "tape": "^5.1.1"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^3.0.0"
+  }
+}
