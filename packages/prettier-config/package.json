@@ -1,0 +1,31 @@
+{
+  "name": "@hex-labs/prettier-config",
+  "version": "0.0.1",
+  "description": "HexLabs shareable Prettier config",
+  "private": false,
+  "homepage": "https://github.com/hackgt/config",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackgt/config",
+    "directory": "packages/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/hackgt/config/issues"
+  },
+  "keywords": [
+    "prettier",
+    "prettierrc"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "npm run test",
+    "test": "tape __tests__/*.js"
+  },
+  "peerDependencies": {
+    "prettier": ">= 2.2"
+  },
+  "devDependencies": {
+    "tape": "^5.1.1"
+  }
+}
