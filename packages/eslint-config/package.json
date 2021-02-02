@@ -1,6 +1,6 @@
 {
   "name": "@hex-labs/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "HexLabs shareable ESLint config for TypeScript projects.",
   "private": false,
   "homepage": "https://github.com/hackgt/config",
