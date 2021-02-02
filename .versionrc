@@ -1,0 +1,28 @@
+{
+  "bumpFiles": [
+    {
+      "filename": "package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/eslint-config/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/eslint-config-react/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/prettier-config/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/stylelint-config/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/tsconfig/package.json",
+      "type": "json"
+    }
+  ]
+}
