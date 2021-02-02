@@ -1,0 +1,46 @@
+name: Publish packages to NPM
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  npm-publish:
+    if: "contains(github.event.head_commit.message, 'chore(release)')"
+    name: Publish packages to NPM
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Use Node 14
+        uses: actions/setup-node@v2.1.4
+        with:
+          node-version: 14
+      - name: Install dependencies with yarn
+        run: yarn install --frozen-lockfile
+      - name: Publish eslint-config
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          package: "./packages/eslint-config/package.json"
+          token: ${{ secrets.NPM_AUTH_TOKEN }}
+      - name: Publish eslint-config-react
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          package: "./packages/eslint-config-react/package.json"
+          token: ${{ secrets.NPM_AUTH_TOKEN }}
+      - name: Publish prettier-config
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          package: "./packages/prettier-config/package.json"
+          token: ${{ secrets.NPM_AUTH_TOKEN }}
+      - name: Publish stylelint-config
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          package: "./packages/stylelint-config/package.json"
+          token: ${{ secrets.NPM_AUTH_TOKEN }}
+      - name: Publish tsconfig
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          package: "./packages/tsconfig/package.json"
+          token: ${{ secrets.NPM_AUTH_TOKEN }}
