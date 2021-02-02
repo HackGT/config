@@ -19,9 +19,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --config=.eslintrc.js",
     "prepublishOnly": "npm run test",
-    "pretest": "npm run lint",
     "test": "tape __tests__/*.js"
   },
   "peerDependencies": {
