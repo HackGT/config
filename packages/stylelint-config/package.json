@@ -17,6 +17,9 @@
     "stylelint",
     "stylelintrc"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "scripts": {
     "prepublishOnly": "npm run test",

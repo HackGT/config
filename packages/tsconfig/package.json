@@ -17,6 +17,9 @@
     "typescript",
     "tsconfig"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prepublishOnly": "npm run test",
     "test": "tape __tests__/*.js"
