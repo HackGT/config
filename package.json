@@ -1,0 +1,41 @@
+{
+  "version": "0.0.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "description": "HexLabs custom configurations for JS/TS projects",
+  "private": true,
+  "homepage": "https://github.com/hackgt/config",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "prettier": "./packages/prettier-config",
+  "standard-version": {
+    "scripts": {
+      "prerelease": "yarn test"
+    }
+  },
+  "scripts": {
+    "format": "prettier --write './**/*.{js,ts,json,yml,yaml,css,html}'",
+    "release": "standard-version",
+    "test": "yarn workspaces run test"
+  },
+  "devDependencies": {
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.2",
+    "prettier": "^2.2.1",
+    "standard-version": "^9.0.0",
+    "tape": "^5.1.1"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,json,yml,yaml,css,html}": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && yarn test"
+    }
+  }
+}
