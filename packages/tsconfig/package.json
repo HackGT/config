@@ -1,6 +1,6 @@
 {
   "name": "@hex-labs/tsconfig",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "HexLabs shareable TypeScript config.",
   "private": false,
   "homepage": "https://github.com/hackgt/config",

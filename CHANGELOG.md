@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/HackGT/config/compare/v0.0.5...v0.0.6) (2021-02-07)
+
+
+### Bug Fixes
+
+* remove eslint-plugin-prettier ([6ffd2a5](https://github.com/HackGT/config/commit/6ffd2a563886ed8d37ce4ce34ace3ac593f2802f))
+
 ### [0.0.5](https://github.com/HackGT/config/compare/v0.0.4...v0.0.5) (2021-02-07)
 
 ### [0.0.4](https://github.com/HackGT/config/compare/v0.0.3...v0.0.4) (2021-02-07)
