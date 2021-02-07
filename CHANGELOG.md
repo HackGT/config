@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/HackGT/config/compare/v0.0.6...v0.0.7) (2021-02-07)
+
+
+### Bug Fixes
+
+* add import/order groups and newline between ([2e8c33a](https://github.com/HackGT/config/commit/2e8c33a54aa8f40c50472a10e35fc20b13fc8077))
+
 ### [0.0.6](https://github.com/HackGT/config/compare/v0.0.5...v0.0.6) (2021-02-07)
 
 
