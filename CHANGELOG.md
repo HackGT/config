@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/HackGT/config/compare/v0.0.7...v0.0.8) (2021-02-07)
+
+
+### Bug Fixes
+
+* change tab width to 2 spaces ([f1e0c9e](https://github.com/HackGT/config/commit/f1e0c9ea06bdea615ed635e202009c4f8533c37c))
+
 ### [0.0.7](https://github.com/HackGT/config/compare/v0.0.6...v0.0.7) (2021-02-07)
 
 
