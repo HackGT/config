@@ -33,6 +33,16 @@ module.exports = {
         "import/extensions": ["error", "never", { css: "always", scss: "always" }], // Disabled import extensions for all files except css, scss
         "import/prefer-default-export": "off", // Allow exporting one
         "import/no-cycle": "off", // Allow circular dependencies
+        "import/order": [
+            "error",
+            {
+                "groups": [
+                    ["builtin", "external"],
+                    ["internal", "parent", "sibling", "index"],
+                ],
+                "newlines-between": "always",
+            },
+        ], // Fix import order and groupings
 
         "@typescript-eslint/no-explicit-any": "off", // Allow using explicity any
         "@typescript-eslint/explicit-module-boundary-types": "off", // Turns off explicit typing since it can inferred and not needed
