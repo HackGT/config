@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/HackGT/config/compare/v0.0.8...v0.0.9) (2021-02-07)
+
+
+### Features
+
+* add updated stylelint config with prettier and ordering ([a5a0536](https://github.com/HackGT/config/commit/a5a0536cc1d14ffa84b4779d1798d90cd825ea66))
+
+
+### Bug Fixes
+
+* move dependencies to dev ([e992e3e](https://github.com/HackGT/config/commit/e992e3e26f2da6d2a46d04c6659827734ac5aa4b))
+
 ### [0.0.8](https://github.com/HackGT/config/compare/v0.0.7...v0.0.8) (2021-02-07)
 
 
