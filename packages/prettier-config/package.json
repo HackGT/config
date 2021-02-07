@@ -29,6 +29,7 @@
     "prettier": ">= 2.2"
   },
   "devDependencies": {
+    "prettier": "^2.2.1",
     "tape": "^5.1.1"
   }
 }
