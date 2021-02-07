@@ -17,6 +17,9 @@
     "commitlint",
     "commitlintrc"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "scripts": {
     "prepublishOnly": "npm run test",
