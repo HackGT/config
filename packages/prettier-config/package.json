@@ -1,6 +1,6 @@
 {
   "name": "@hex-labs/prettier-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "HexLabs shareable Prettier config",
   "private": false,
   "homepage": "https://github.com/hackgt/config",
