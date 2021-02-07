@@ -23,15 +23,19 @@
   "main": "index.js",
   "scripts": {
     "prepublishOnly": "npm run test",
-    "test": "tape __tests__/*.js"
+    "test": "tape __tests__/*.js",
+    "output": "stylelint --config=.stylelintrc.json --print-config output.json > output.json"
   },
   "peerDependencies": {
     "stylelint": ">= 13.9"
   },
   "devDependencies": {
+    "stylelint": "^13.9.0",
     "tape": "^5.1.1"
   },
   "dependencies": {
-    "stylelint-config-standard": "^3.0.0"
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0"
   }
 }
