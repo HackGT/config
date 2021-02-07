@@ -1,6 +1,6 @@
 {
   "name": "@hex-labs/commitlint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "HexLabs shareable commitlint config.",
   "private": false,
   "homepage": "https://github.com/hackgt/config",
