@@ -23,7 +23,8 @@
   "main": "index.js",
   "scripts": {
     "prepublishOnly": "npm run test",
-    "test": "tape __tests__/*.js"
+    "test": "tape __tests__/*.js",
+    "output": "eslint --config=.eslintrc.js --print-config output.json > output.json"
   },
   "peerDependencies": {
     "eslint": ">= 7",
