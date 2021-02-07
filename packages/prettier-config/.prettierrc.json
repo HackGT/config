@@ -5,18 +5,12 @@
       "options": {
         "proseWrap": "always"
       }
-    },
-    {
-      "files": ["*.json", "*.yaml", "*.yml"],
-      "options": {
-        "tabWidth": 2
-      }
     }
   ],
   "printWidth": 100,
   "semi": true,
   "singleQuote": false,
-  "tabWidth": 4,
+  "tabWidth": 2,
   "useTabs": false,
   "quoteProps": "consistent",
   "jsxSingleQuote": false,
