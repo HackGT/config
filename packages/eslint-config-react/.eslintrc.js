@@ -18,6 +18,7 @@ module.exports = {
         "plugin:react/recommended",
         "airbnb",
         "airbnb/hooks",
+        "react-app",
 
         // Override rules for TypeScript
         "plugin:import/typescript",
