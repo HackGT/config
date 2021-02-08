@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/HackGT/config/compare/v0.0.9...v0.0.10) (2021-02-08)
+
+
+### Bug Fixes
+
+* rename tsconfig.json and remove outDir and rootDir ([6b4ad77](https://github.com/HackGT/config/commit/6b4ad776787ae9c86eb21ea96afff6df61b70bff))
+
 ### [0.0.9](https://github.com/HackGT/config/compare/v0.0.8...v0.0.9) (2021-02-07)
 
 
