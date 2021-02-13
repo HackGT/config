@@ -1,5 +1,21 @@
 # @hex-labs/commitlint-config
 
-## License
+### Installation
+```bash
+npm install --save-dev @hex-labs/commitlint-config @commitlint/{cli,config-conventional}
+
+yarn install --dev @hex-labs/commitlint-config @commitlint/{cli,config-conventional}
+```
+
+### Usage
+Add this line to your `package.json`
+
+```json
+"commitlint": {
+  "extends": "@hex-labs/commitlint-config"
+}
+```
+
+### License
 
 [MIT](LICENSE) &copy; HexLabs

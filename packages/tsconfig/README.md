@@ -1,5 +1,19 @@
 # @hex-labs/tsconfig
 
-## License
+### Installation
+```bash
+npm install --save-dev @hex-labs/tsconfig
+
+yarn install --dev @@hex-labs/tsconfig
+```
+
+### Usage
+Add this line to your `tsconfig.json`
+
+```json
+"extends": "@hex-labs/tsconfig"
+```
+
+### License
 
 [MIT](LICENSE) &copy; HexLabs
