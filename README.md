@@ -43,7 +43,7 @@ To run, add a `lint` script to `package.json`
 ```
 
 ### Server
-These steps will setup `eslint`, `prettier`, `tsconfig` for a TypeScript Node app.
+These steps will setup `eslint`, `prettier`, and `tsconfig` for a TypeScript Node app.
 
 ```bash
 npm install --save-dev @hex-labs/eslint-config @hex-labs/prettier-config @hex-labs/tsconfig eslint prettier
