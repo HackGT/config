@@ -12,4 +12,4 @@ Each package has an associated `__tests__` folder that holds tests to run with `
 
 ## Release
 
-To release a new version, run `yarn release` and `git push --follow-tags` to push the tags as well. Once the commits are pushed, GitHub Actions will run a workflow to publish a new version to npm.
+To release a new version, run `yarn release` and `git push --follow-tags origin master` to push the tags as well. Once the commits are pushed, GitHub Actions will run a workflow to publish a new version to npm.
