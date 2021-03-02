@@ -19,7 +19,7 @@ These steps will setup `eslint`, `prettier`, and `stylelint` for a TypeScript Re
 ```bash
 npm install --save-dev @hex-labs/eslint-config-react @hex-labs/prettier-config @hex-labs/stylelint-config eslint prettier stylelint
 
-yarn install --dev @hex-labs/eslint-config-react @hex-labs/prettier-config @hex-labs/stylelint-config eslint prettier stylelint
+yarn add --dev @hex-labs/eslint-config-react @hex-labs/prettier-config @hex-labs/stylelint-config eslint prettier stylelint
 ```
 
 Add these lines to your `package.json`
@@ -48,7 +48,7 @@ These steps will setup `eslint`, `prettier`, and `tsconfig` for a TypeScript Nod
 ```bash
 npm install --save-dev @hex-labs/eslint-config @hex-labs/prettier-config @hex-labs/tsconfig eslint prettier
 
-yarn install --dev @hex-labs/eslint-config @hex-labs/prettier-config @hex-labs/tsconfig eslint prettier
+yarn add --dev @hex-labs/eslint-config @hex-labs/prettier-config @hex-labs/tsconfig eslint prettier
 ```
 
 Add these lines to your `package.json`
