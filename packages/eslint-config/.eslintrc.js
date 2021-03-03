@@ -24,7 +24,7 @@ module.exports = {
     "import/prefer-default-export": "off", // Allow exporting one
     "import/no-cycle": "off", // Allow circular dependencies
     "import/order": [
-      "error",
+      "warn",
       {
         "groups": [
           ["builtin", "external"],
@@ -50,7 +50,7 @@ module.exports = {
     "no-return-await": "off", // Allow return await func();
     "no-use-before-define": "off", // Use TypeScript rule instead
     "lines-between-class-members": [
-      "error",
+      "warn",
       "always",
       {
         exceptAfterSingleLine: true,
