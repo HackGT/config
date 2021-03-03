@@ -68,6 +68,12 @@ module.exports = {
     ], // Enforce lines between class members except for one liners
     "radix": ["error", "as-needed"], // Allow not needing 10 for radix
     "one-var": "off", // Allow multiple variable declarations on one line
+    "no-plusplus": [
+      "warn",
+      {
+        allowForLoopAfterthoughts: true
+      }
+    ], // Allow using ++ or -- unary operators in for loop
 
     "react/prop-types": ["off"], // Not needed
     "react/jsx-props-no-spreading": ["off"], // Not needed
