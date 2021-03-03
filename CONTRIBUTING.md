@@ -4,7 +4,7 @@ Config is shared project configuration we use for all HexLabs projects.
 
 ## Commit Guidelines
 
-We use commitlint to ensure all commits follow a standard guidelines to generated release changelog messages. You can view the format of the commit messages [here](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional#type-enum).
+We use commitlint to ensure all commits follow a standard guidelines to generated release changelog messages. You can view the format of the commit messages [here](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format).
 
 ## Testing
 
