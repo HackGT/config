@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/HackGT/config/compare/v1.0.0...v1.1.0) (2021-03-03)
+
+
+### Features
+
+* add no-plusplus rule ([40e157b](https://github.com/HackGT/config/commit/40e157b31841517ba7f0af177b7457c9d900bf72))
+* disable no-restricted-syntax eslint ([7b4796f](https://github.com/HackGT/config/commit/7b4796fb55c08b0f4a5673c5cd52557882aa34a3))
+
+
+### Bug Fixes
+
+* make eslint errors warn ([4e26f2f](https://github.com/HackGT/config/commit/4e26f2f6eec4ff031aeb1a5100df880a0c6abb9f))
+* update files formatting spacing with prettier ([a060a07](https://github.com/HackGT/config/commit/a060a07561b68df6eb2d5f84ed18b0f33178319d))
+
 ## [1.0.0](https://github.com/HackGT/config/compare/v0.0.10...v1.0.0) (2021-03-02)
 
 ### [0.0.10](https://github.com/HackGT/config/compare/v0.0.9...v0.0.10) (2021-02-08)
