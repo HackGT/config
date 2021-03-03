@@ -1,6 +1,7 @@
 # @hex-labs/commitlint-config
 
 ### Installation
+
 ```bash
 npm install --save-dev @hex-labs/commitlint-config @commitlint/{cli,config-conventional}
 
@@ -8,6 +9,7 @@ yarn install --dev @hex-labs/commitlint-config @commitlint/{cli,config-conventio
 ```
 
 ### Usage
+
 Add this line to your `package.json`
 
 ```json

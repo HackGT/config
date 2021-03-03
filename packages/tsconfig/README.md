@@ -1,6 +1,7 @@
 # @hex-labs/tsconfig
 
 ### Installation
+
 ```bash
 npm install --save-dev @hex-labs/tsconfig
 
@@ -8,6 +9,7 @@ yarn install --dev @@hex-labs/tsconfig
 ```
 
 ### Usage
+
 Add this line to your `tsconfig.json`
 
 ```json
