@@ -64,5 +64,6 @@ module.exports = {
         allowForLoopAfterthoughts: true
       }
     ], // Allow using ++ or -- unary operators in for loop
+    "no-restricted-syntax": "off", // Disable airbnb restricted syntax for for loops
   },
 };

@@ -74,6 +74,7 @@ module.exports = {
         allowForLoopAfterthoughts: true
       }
     ], // Allow using ++ or -- unary operators in for loop
+    "no-restricted-syntax": "off", // Disable airbnb restricted syntax for for loops
 
     "react/prop-types": ["off"], // Not needed
     "react/jsx-props-no-spreading": ["off"], // Not needed
