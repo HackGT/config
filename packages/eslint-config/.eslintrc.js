@@ -45,10 +45,12 @@ module.exports = {
         variables: true,
       },
     ], // Define TypeScript rule instead of default
+    "@typescript-eslint/no-shadow": "error", // Define TypeScript rule instead of default
 
     "no-console": "off", // Allow console logs
     "no-return-await": "off", // Allow return await func();
     "no-use-before-define": "off", // Use TypeScript rule instead
+    "no-shadow": "off", // Use TypeScript rule instead
     "lines-between-class-members": [
       "warn",
       "always",
@@ -61,8 +63,8 @@ module.exports = {
     "no-plusplus": [
       "warn",
       {
-        allowForLoopAfterthoughts: true
-      }
+        allowForLoopAfterthoughts: true,
+      },
     ], // Allow using ++ or -- unary operators in for loop
     "no-restricted-syntax": "off", // Disable airbnb restricted syntax for for loops
   },
