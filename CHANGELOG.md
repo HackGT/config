@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/HackGT/config/compare/v1.1.0...v1.1.1) (2021-03-16)
+
+
+### Bug Fixes
+
+* update no-shadow to use typescript version ([f6fed19](https://github.com/HackGT/config/commit/f6fed19e8f612065c75be2dded5a550af907a298))
+
 ## [1.1.0](https://github.com/HackGT/config/compare/v1.0.0...v1.1.0) (2021-03-03)
 
 
