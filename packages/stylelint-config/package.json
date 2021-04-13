@@ -1,6 +1,6 @@
 {
   "name": "@hex-labs/stylelint-config",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "HexLabs shareable Stylelint config",
   "private": false,
   "homepage": "https://github.com/hackgt/config",

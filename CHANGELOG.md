@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://github.com/HackGT/config/compare/v1.1.4...v1.1.5) (2021-04-13)
+
+
+### Bug Fixes
+
+* update commit pattern ([ba1f350](https://github.com/HackGT/config/commit/ba1f3501181cc69f58a5c666c41ef5da5a055fcf))
+
 ### [1.1.4](https://github.com/HackGT/config/compare/v1.1.3...v1.1.4) (2021-04-13)
 
 
