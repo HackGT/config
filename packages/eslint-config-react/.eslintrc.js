@@ -56,6 +56,8 @@ module.exports = {
       },
     ], // Define TypeScript rule instead of default
     "@typescript-eslint/no-shadow": "error", // Define TypeScript rule instead of default
+    "@typescript-eslint/no-empty-interface": "off", // Allow empty interfaces for typings
+    "@typescript-eslint/no-namespace": "off", // Allow using namespaces
 
     "no-console": "off", // Allow console logs
     "no-return-await": "off", // Allow return await func();
