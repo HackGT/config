@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/HackGT/config/compare/v1.1.1...v1.1.2) (2021-04-13)
+
+
+### Bug Fixes
+
+* turn off eslint react rule for unescaped entities ([c8a8224](https://github.com/HackGT/config/commit/c8a82240d8b2f9994ed2732eaebefcd55088c991))
+* turn off eslint rules for empty interface and namespace ([26f1fbd](https://github.com/HackGT/config/commit/26f1fbdda04c8f73863b24a6e07f8d1caa59ab2a))
+
 ### [1.1.1](https://github.com/HackGT/config/compare/v1.1.0...v1.1.1) (2021-03-16)
 
 
