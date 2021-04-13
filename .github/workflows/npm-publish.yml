@@ -24,6 +24,7 @@ jobs:
         with:
           create_tag: "false"
           workspace: "./packages/commitlint-config/package.json"
+          commit_pattern: ""
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
@@ -32,6 +33,7 @@ jobs:
         with:
           create_tag: "false"
           workspace: "./packages/eslint-config/package.json"
+          commit_pattern: ""
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
@@ -40,6 +42,7 @@ jobs:
         with:
           create_tag: "false"
           workspace: "./packages/eslint-config-react/package.json"
+          commit_pattern: ""
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
@@ -48,6 +51,7 @@ jobs:
         with:
           create_tag: "false"
           workspace: "./packages/prettier-config/package.json"
+          commit_pattern: ""
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
@@ -56,6 +60,7 @@ jobs:
         with:
           create_tag: "false"
           workspace: "./packages/stylelint-config/package.json"
+          commit_pattern: ""
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
@@ -64,6 +69,7 @@ jobs:
         with:
           create_tag: "false"
           workspace: "./packages/tsconfig/package.json"
+          commit_pattern: ""
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
