@@ -84,5 +84,6 @@ module.exports = {
     "react/jsx-props-no-spreading": ["off"], // Not needed
     "react/destructuring-assignment": ["off"], // Not needed
     "react/jsx-filename-extension": ["error", { extensions: [".jsx", ".tsx"] }], // Allow using JSX in .tsx files as well
+    "react/no-unescaped-entities": ["off"] // Allow using apostrophes in text
   },
 };
