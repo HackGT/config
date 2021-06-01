@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies with yarn
         run: yarn install --frozen-lockfile
       - name: Publish commitlint-config
-        uses: pascalgn/npm-publish-action@1.3.7
+        uses: pascalgn/npm-publish-action@1.3.8
         with:
           create_tag: "false"
           workspace: "./packages/commitlint-config/package.json"
@@ -29,7 +29,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       - name: Publish eslint-config
-        uses: pascalgn/npm-publish-action@1.3.7
+        uses: pascalgn/npm-publish-action@1.3.8
         with:
           create_tag: "false"
           workspace: "./packages/eslint-config/package.json"
@@ -38,7 +38,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       - name: Publish eslint-config-react
-        uses: pascalgn/npm-publish-action@1.3.7
+        uses: pascalgn/npm-publish-action@1.3.8
         with:
           create_tag: "false"
           workspace: "./packages/eslint-config-react/package.json"
@@ -47,7 +47,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       - name: Publish prettier-config
-        uses: pascalgn/npm-publish-action@1.3.7
+        uses: pascalgn/npm-publish-action@1.3.8
         with:
           create_tag: "false"
           workspace: "./packages/prettier-config/package.json"
@@ -56,7 +56,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       - name: Publish stylelint-config
-        uses: pascalgn/npm-publish-action@1.3.7
+        uses: pascalgn/npm-publish-action@1.3.8
         with:
           create_tag: "false"
           workspace: "./packages/stylelint-config/package.json"
@@ -65,7 +65,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       - name: Publish tsconfig
-        uses: pascalgn/npm-publish-action@1.3.7
+        uses: pascalgn/npm-publish-action@1.3.8
         with:
           create_tag: "false"
           workspace: "./packages/tsconfig/package.json"
