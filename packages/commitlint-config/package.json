@@ -26,10 +26,10 @@
     "test": "tape __tests__/*.js"
   },
   "dependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0"
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4"
   },
   "devDependencies": {
-    "tape": "^5.1.1"
+    "tape": "^5.2.2"
   }
 }

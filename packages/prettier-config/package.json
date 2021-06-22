@@ -26,10 +26,10 @@
     "test": "tape __tests__/*.js"
   },
   "peerDependencies": {
-    "prettier": ">= 2.2"
+    "prettier": ">=2.3"
   },
   "devDependencies": {
     "prettier": "^2.2.1",
-    "tape": "^5.1.1"
+    "tape": "^5.2.2"
   }
 }
