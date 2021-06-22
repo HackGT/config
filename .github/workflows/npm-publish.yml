@@ -22,32 +22,26 @@ jobs:
       - name: Install dependencies with yarn
         run: yarn install --frozen-lockfile
       - name: Publish eslint-config
-        run: yarn publish
-        working-directory: "./packages/eslint-config"
+        run: yarn publish packages/eslint-config
         env:
           NPM_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
       - name: Publish eslint-config-react
-        run: yarn publish
-        working-directory: "./packages/eslint-config-react"
+        run: yarn publish packages/eslint-config-react
         env:
           NPM_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
       - name: Publish commitlint-config
-        run: yarn publish
-        working-directory: "./packages/commitlint-config"
+        run: yarn publish packages/commitlint-config
         env:
           NPM_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
       - name: Publish prettier-config
-        run: yarn publish
-        working-directory: "./packages/prettier-config"
+        run: yarn publish packages/prettier-config
         env:
           NPM_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
       - name: Publish stylelint-config
-        run: yarn publish
-        working-directory: "./packages/stylelint-config"
+        run: yarn publish packages/stylelint-config
         env:
           NPM_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
       - name: Publish tsconfig
-        run: yarn publish
-        working-directory: "./packages/tsconfig"
+        run: yarn publish packages/tsconfig
         env:
           NPM_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
