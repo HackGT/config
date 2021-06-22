@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.6](https://github.com/HackGT/config/compare/v1.1.5...v1.1.6) (2021-06-22)
+
+
+### Bug Fixes
+
+* update all package dependencies ([02e3f62](https://github.com/HackGT/config/commit/02e3f620974fa60c5eff2c406ac26a1ff97acb6c))
+* update npm publish github workflow ([9737d17](https://github.com/HackGT/config/commit/9737d171479f6611dabea02b26914e16090a2e5a))
+
 ### [1.1.5](https://github.com/HackGT/config/compare/v1.1.4...v1.1.5) (2021-04-13)
 
 
