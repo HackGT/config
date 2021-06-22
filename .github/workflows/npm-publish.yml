@@ -18,35 +18,36 @@ jobs:
         with:
           node-version: 14
           registry-url: "https://registry.npmjs.org"
+          always-auth: true
       - name: Install dependencies with yarn
         run: yarn install --frozen-lockfile
       - name: Publish eslint-config
         run: yarn publish
         working-directory: "./packages/eslint-config"
         env:
-          NODE_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
       - name: Publish eslint-config-react
         run: yarn publish
         working-directory: "./packages/eslint-config-react"
         env:
-          NODE_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
       - name: Publish commitlint-config
         run: yarn publish
         working-directory: "./packages/commitlint-config"
         env:
-          NODE_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
       - name: Publish prettier-config
         run: yarn publish
         working-directory: "./packages/prettier-config"
         env:
-          NODE_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
       - name: Publish stylelint-config
         run: yarn publish
         working-directory: "./packages/stylelint-config"
         env:
-          NODE_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
       - name: Publish tsconfig
         run: yarn publish
         working-directory: "./packages/tsconfig"
         env:
-          NODE_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
+          NPM_AUTH_TOKEN: ${{ SECRETS.NPM_AUTH_TOKEN }}
