@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.12](https://github.com/HackGT/config/compare/v1.1.11...v1.1.12) (2021-10-04)
+
+
+### Bug Fixes
+
+* update react eslint to remove prop rules ([83aade6](https://github.com/HackGT/config/commit/83aade68559885f193f7661c92a5217be96e1ce1))
+
 ### [1.1.11](https://github.com/HackGT/config/compare/v1.1.10...v1.1.11) (2021-06-22)
 
 
