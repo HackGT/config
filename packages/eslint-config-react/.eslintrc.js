@@ -26,8 +26,6 @@ module.exports = {
 
     // Disable rules conflicting with Preitter
     "prettier",
-    "prettier/@typescript-eslint",
-    "prettier/react",
   ],
   rules: {
     "import/extensions": ["error", "never", { css: "always", scss: "always" }], // Disabled import extensions for all files except css, scss
@@ -84,6 +82,8 @@ module.exports = {
     "react/jsx-props-no-spreading": ["off"], // Not needed
     "react/destructuring-assignment": ["off"], // Not needed
     "react/jsx-filename-extension": ["error", { extensions: [".jsx", ".tsx"] }], // Allow using JSX in .tsx files as well
-    "react/no-unescaped-entities": ["off"] // Allow using apostrophes in text
+    "react/no-unescaped-entities": ["off"], // Allow using apostrophes in text
+    "react/no-unused-prop-types": ["off"], // Throws unnecessary errors
+    "react/require-default-props": ["off"], // Throws unnecessary errors
   },
 };
