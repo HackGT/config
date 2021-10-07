@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.13](https://github.com/HackGT/config/compare/v1.1.12...v1.1.13) (2021-10-07)
+
+
+### Bug Fixes
+
+* update eslint prettier extends ([56b4e7b](https://github.com/HackGT/config/commit/56b4e7bcfa99bda7ab6c1f5d996779ac51d9b4b3))
+
 ### [1.1.12](https://github.com/HackGT/config/compare/v1.1.11...v1.1.12) (2021-10-04)
 
 
