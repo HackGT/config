@@ -17,7 +17,6 @@ module.exports = {
 
     // Disable rules conflicting with Preitter
     "prettier",
-    "prettier/@typescript-eslint",
   ],
   rules: {
     "import/extensions": ["error", "never", { css: "always", scss: "always" }], // Disabled import extensions for all files except css, scss
