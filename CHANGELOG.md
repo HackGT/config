@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.14](https://github.com/HackGT/config/compare/v1.1.13...v1.1.14) (2021-10-07)
+
+
+### Bug Fixes
+
+* add eslint react button rule ([eab1e1b](https://github.com/HackGT/config/commit/eab1e1b06a4be88b61b7ee025e5987d9156b3144))
+
 ### [1.1.13](https://github.com/HackGT/config/compare/v1.1.12...v1.1.13) (2021-10-07)
 
 
