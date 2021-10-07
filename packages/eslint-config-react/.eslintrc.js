@@ -85,5 +85,6 @@ module.exports = {
     "react/no-unescaped-entities": ["off"], // Allow using apostrophes in text
     "react/no-unused-prop-types": ["off"], // Throws unnecessary errors
     "react/require-default-props": ["off"], // Throws unnecessary errors
+    "react/button-has-type": ["off"], // Adds unnecessary work
   },
 };
