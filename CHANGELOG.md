@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.15](https://github.com/HackGT/config/compare/v1.1.14...v1.1.15) (2021-10-15)
+
+
+### Bug Fixes
+
+* update eslint rules ([d11b1a8](https://github.com/HackGT/config/commit/d11b1a85e603b1f8fafbcc5678fe736a60d38c8d))
+
 ### [1.1.14](https://github.com/HackGT/config/compare/v1.1.13...v1.1.14) (2021-10-07)
 
 
