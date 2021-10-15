@@ -77,6 +77,9 @@ module.exports = {
       },
     ], // Allow using ++ or -- unary operators in for loop
     "no-restricted-syntax": "off", // Disable airbnb restricted syntax for for loops
+    "no-alert": "off", // Allow using prompts
+    "no-underscore-dangle": "warn", // Make this a warning not an error
+    "no-param-reassign": "warn", // Make this a warning not an error
 
     "react/prop-types": ["off"], // Not needed
     "react/jsx-props-no-spreading": ["off"], // Not needed
