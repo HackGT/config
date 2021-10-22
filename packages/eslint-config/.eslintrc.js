@@ -44,7 +44,7 @@ module.exports = {
         variables: true,
       },
     ], // Define TypeScript rule instead of default
-    "@typescript-eslint/no-shadow": "error", // Define TypeScript rule instead of default
+    "@typescript-eslint/no-shadow": 1, // Define TypeScript rule instead of default
     "@typescript-eslint/no-empty-interface": "off", // Allow empty interfaces for typings
     "@typescript-eslint/no-namespace": "off", // Allow using namespaces
 

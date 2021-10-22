@@ -53,7 +53,7 @@ module.exports = {
         variables: true,
       },
     ], // Define TypeScript rule instead of default
-    "@typescript-eslint/no-shadow": "error", // Define TypeScript rule instead of default
+    "@typescript-eslint/no-shadow": 1, // Define TypeScript rule instead of default
     "@typescript-eslint/no-empty-interface": "off", // Allow empty interfaces for typings
     "@typescript-eslint/no-namespace": "off", // Allow using namespaces
 
@@ -89,5 +89,10 @@ module.exports = {
     "react/no-unused-prop-types": ["off"], // Throws unnecessary errors
     "react/require-default-props": ["off"], // Throws unnecessary errors
     "react/button-has-type": ["off"], // Adds unnecessary work
+
+    "jsx-a11y/no-static-element-interactions": "off", // Not needed
+    "jsx-a11y/click-events-have-key-events": "off", // Not needed
+    "jsx-a11y/anchor-is-valid": "off", // Not needed
+    "jsx-a11y/no-noninteractive-element-interactions": "off", // Not needed
   },
 };
