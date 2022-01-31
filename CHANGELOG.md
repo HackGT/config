@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/HackGT/config/compare/v1.1.16...v1.2.0) (2022-01-31)
+
+
+### Features
+
+* update to husky v7 ([33a051f](https://github.com/HackGT/config/commit/33a051fc56f1c04e1e87f8f3888480b12b73a56c))
+
 ### [1.1.16](https://github.com/HackGT/config/compare/v1.1.15...v1.1.16) (2021-10-22)
 
 
