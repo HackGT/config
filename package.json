@@ -19,12 +19,13 @@
   "scripts": {
     "format": "prettier --write './**/*.{js,ts,json,yml,yaml,css,html}'",
     "release": "standard-version",
-    "test": "yarn workspaces run test"
+    "test": "yarn workspaces run test",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
-    "husky": "^7.0.4",
+    "husky": "^7.0.0",
     "lint-staged": "^12.3.2",
     "prettier": "^2.5.1",
     "standard-version": "^9.3.2",
@@ -35,11 +36,5 @@
     "*.{js,ts,tsx,json,yml,yaml,css,html}": [
       "prettier --write"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "syncpack list-mismatches && lint-staged && yarn test",
-      "commit-msg": "commitlint -e"
-    }
   }
 }
