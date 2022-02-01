@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-syncpack list-mismatches && lint-staged && yarn test
+yarn syncpack list-mismatches && yarn lint-staged && yarn test
