@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/HackGT/config/compare/v1.2.0...v1.2.1) (2022-02-15)
+
+
+### Bug Fixes
+
+* downgrade eslint-config-react-app ([f293ae1](https://github.com/HackGT/config/commit/f293ae14ebc874bdb352c54bcd6ab4e823bf99f7))
+* update husky commands ([db147d0](https://github.com/HackGT/config/commit/db147d05f667d940a5b53cb4f27c3d3c813a1eae))
+
 ## [1.2.0](https://github.com/HackGT/config/compare/v1.1.16...v1.2.0) (2022-01-31)
 
 
