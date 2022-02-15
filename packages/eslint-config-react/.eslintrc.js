@@ -80,6 +80,15 @@ module.exports = {
     "no-alert": "off", // Allow using prompts
     "no-underscore-dangle": "warn", // Make this a warning not an error
     "no-param-reassign": "warn", // Make this a warning not an error
+    "camelcase": [
+      "warn",
+      {
+        properties: "never",
+        ignoreDestructuring: false,
+        ignoreImports: false,
+        ignoreGlobals: false,
+      },
+    ], // Make this a warning not an error
 
     "react/prop-types": ["off"], // Not needed
     "react/jsx-props-no-spreading": ["off"], // Not needed
@@ -89,6 +98,7 @@ module.exports = {
     "react/no-unused-prop-types": ["off"], // Throws unnecessary errors
     "react/require-default-props": ["off"], // Throws unnecessary errors
     "react/button-has-type": ["off"], // Adds unnecessary work
+    "react/function-component-definition": ["off"], // Turn off rule to allow multiple function declarations
 
     "jsx-a11y/no-static-element-interactions": "off", // Not needed
     "jsx-a11y/click-events-have-key-events": "off", // Not needed
