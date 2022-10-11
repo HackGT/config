@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.9](https://github.com/HackGT/config/compare/v1.2.8...v1.2.9) (2022-10-11)
+
+
+### Bug Fixes
+
+* change jsx fragment to warn ([90347eb](https://github.com/HackGT/config/commit/90347eb3ba5e9e5368fee27e73abb17392633648))
+
 ### [1.2.8](https://github.com/HackGT/config/compare/v1.2.7...v1.2.8) (2022-07-07)
 
 ### [1.2.7](https://github.com/HackGT/config/compare/v1.2.6...v1.2.7) (2022-07-07)
