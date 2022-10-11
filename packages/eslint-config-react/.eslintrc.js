@@ -99,6 +99,7 @@ module.exports = {
     "react/require-default-props": ["off"], // Throws unnecessary errors
     "react/button-has-type": ["off"], // Adds unnecessary work
     "react/function-component-definition": ["off"], // Turn off rule to allow multiple function declarations
+    "react/jsx-no-useless-fragment": ["warn"], // Make rule a warning instead of error
 
     "jsx-a11y/no-static-element-interactions": "off", // Not needed
     "jsx-a11y/click-events-have-key-events": "off", // Not needed
