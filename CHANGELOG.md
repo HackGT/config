@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.10](https://github.com/HackGT/config/compare/v1.2.9...v1.2.10) (2022-12-07)
+
+
+### Bug Fixes
+
+* update all packages to latest versions ([8fec949](https://github.com/HackGT/config/commit/8fec9492d884b30b666b11b3c211eb53eee169a1))
+
 ### [1.2.9](https://github.com/HackGT/config/compare/v1.2.8...v1.2.9) (2022-10-11)
 
 
