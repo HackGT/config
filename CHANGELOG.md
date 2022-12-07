@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/HackGT/config/compare/v1.3.0...v1.3.1) (2022-12-07)
+
+
+### Bug Fixes
+
+* add root true ([b4de8ce](https://github.com/HackGT/config/commit/b4de8ce248ed8c0c422e138a3a5b4f32fa263419))
+
 ## [1.3.0](https://github.com/HackGT/config/compare/v1.2.11...v1.3.0) (2022-12-07)
 
 
