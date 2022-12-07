@@ -30,12 +30,12 @@
     "stylelint": ">=13.13"
   },
   "devDependencies": {
-    "stylelint": "^14.3.0",
-    "tape": "^5.5.0"
+    "stylelint": "^14.16.0",
+    "tape": "^5.6.1"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^24.0.0"
+    "stylelint-config-standard": "^29.0.0"
   }
 }

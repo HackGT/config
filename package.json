@@ -23,14 +23,15 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.1.0",
-    "@commitlint/config-conventional": "^16.0.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.3.2",
-    "prettier": "^2.5.1",
-    "standard-version": "^9.3.2",
-    "syncpack": "^6.2.0",
-    "tape": "^5.5.0"
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@types/node": "^18.11.11",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
+    "standard-version": "^9.5.0",
+    "syncpack": "^8.4.11",
+    "tape": "^5.6.1"
   },
   "lint-staged": {
     "*.{js,ts,tsx,json,yml,yaml,css,html}": [
