@@ -4,6 +4,7 @@ module.exports = {
     es2020: true,
     node: true,
   },
+  root: true,
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint", "import"],
   extends: [

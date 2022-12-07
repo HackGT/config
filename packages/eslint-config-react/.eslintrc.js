@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es2020: true,
   },
+  root: true,
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
