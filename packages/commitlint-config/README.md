@@ -5,7 +5,7 @@
 ```bash
 npm install --save-dev @hex-labs/commitlint-config @commitlint/{cli,config-conventional}
 
-yarn install --dev @hex-labs/commitlint-config @commitlint/{cli,config-conventional}
+yarn add --dev @hex-labs/commitlint-config @commitlint/{cli,config-conventional}
 ```
 
 ### Usage

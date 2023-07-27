@@ -5,7 +5,7 @@
 ```bash
 npm install --save-dev @hex-labs/eslint-config eslint
 
-yarn install --dev @hex-labs/eslint-config eslint
+yarn add --dev @hex-labs/eslint-config eslint
 ```
 
 ### Usage

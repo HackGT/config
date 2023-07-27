@@ -5,7 +5,7 @@
 ```bash
 npm install --save-dev @hex-labs/tsconfig
 
-yarn install --dev @@hex-labs/tsconfig
+yarn add --dev @hex-labs/tsconfig
 ```
 
 ### Usage

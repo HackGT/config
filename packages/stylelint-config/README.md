@@ -5,7 +5,7 @@
 ```bash
 npm install --save-dev @hex-labs/stylelint-config stylelint
 
-yarn install --dev @@hex-labs/stylelint-config stylelint
+yarn add --dev @hex-labs/stylelint-config stylelint
 ```
 
 ### Usage

@@ -5,7 +5,7 @@
 ```bash
 npm install --save-dev @hex-labs/prettier-config prettier
 
-yarn install --dev @@hex-labs/prettier-config prettier
+yarn add --dev @hex-labs/prettier-config prettier
 ```
 
 ### Usage
