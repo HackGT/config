@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.2](https://github.com/HackGT/config/compare/v1.4.1...v1.4.2) (2023-08-01)
+
+
+### Bug Fixes
+
+* change master branch to main ([ab7fc9e](https://github.com/HackGT/config/commit/ab7fc9e0925bd82f549d2512f21de8ad65659090))
+
 ### [1.4.1](https://github.com/HackGT/config/compare/v1.4.0...v1.4.1) (2023-08-01)
 
 
