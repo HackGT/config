@@ -14,10 +14,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Use Node 14
+      - name: Use Node 16
         uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 16
       - name: Install dependencies with yarn
         run: yarn install --frozen-lockfile
       - name: Run test command

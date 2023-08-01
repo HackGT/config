@@ -8,7 +8,7 @@
   "homepage": "https://github.com/hackgt/config",
   "license": "MIT",
   "engines": {
-    "node": ">=14"
+    "node": ">=16"
   },
   "prettier": "./packages/prettier-config",
   "standard-version": {
