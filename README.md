@@ -86,7 +86,7 @@ To run, add a `lint` script to `package.json`
 
 We use commitlint to ensure all commits follow a standard guidelines to generated release changelog
 messages. You can view the format of the commit messages
-[here](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format).
+[here](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-commit-message-format).
 
 ### Testing
 
@@ -95,7 +95,7 @@ committing and releasing new versions, all the tests will be run to ensure they 
 
 ### Release
 
-To release a new version, run `yarn release` and `git push --follow-tags origin master` to push the
+To release a new version, run `yarn release` and `git push --follow-tags origin main` to push the
 tags as well. Once the commits are pushed, GitHub Actions will automatically run a workflow to
 publish a new version to npm.
 
