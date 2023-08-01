@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/HackGT/config/compare/v1.3.1...v1.4.0) (2023-08-01)
+
+
+### Features
+
+* update all dependencies and remove stylelint prettier plugin ([0f81349](https://github.com/HackGT/config/commit/0f81349a2d00c1256474447904115f5cf0b186f8))
+
+
+### Bug Fixes
+
+* eslint-config-react plugin conflict ([f191c7d](https://github.com/HackGT/config/commit/f191c7d5969470c4499c429e33b648ca11f55782))
+* syncpack config dependency types update ([d8d9f18](https://github.com/HackGT/config/commit/d8d9f188fda8cd5a00a4179acf8845e01dbf0366))
+
 ### [1.3.1](https://github.com/HackGT/config/compare/v1.3.0...v1.3.1) (2022-12-07)
 
 
