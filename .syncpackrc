@@ -1,13 +1,9 @@
 {
-  "dev": true,
   "filter": ".",
   "indent": "  ",
-  "overrides": true,
-  "peer": false,
-  "prod": true,
-  "resolutions": true,
   "semverGroups": [],
   "semverRange": "",
+  "dependencyTypes": ["dev", "prod", "overrides", "resolutions"],
   "sortAz": [
     "contributors",
     "dependencies",
