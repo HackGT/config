@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/HackGT/config/compare/v1.4.0...v1.4.1) (2023-08-01)
+
+
+### Bug Fixes
+
+* update node engine to >=16 ([841a7cc](https://github.com/HackGT/config/commit/841a7cc3f45a5dd4db9db382c44fbfe37a4c877d))
+
 ## [1.4.0](https://github.com/HackGT/config/compare/v1.3.1...v1.4.0) (2023-08-01)
 
 
