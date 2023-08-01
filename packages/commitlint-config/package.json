@@ -25,11 +25,13 @@
     "prepublishOnly": "npm run test",
     "test": "tape __tests__/*.js"
   },
+  "peerDependencies": {
+    "@commitlint/cli": ">=17"
+  },
   "dependencies": {
-    "@commitlint/cli": "^17.3.0",
-    "@commitlint/config-conventional": "^17.3.0"
+    "@commitlint/config-conventional": "^17.6.7"
   },
   "devDependencies": {
-    "tape": "^5.6.1"
+    "tape": "^5.6.6"
   }
 }

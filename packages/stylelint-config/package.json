@@ -27,15 +27,14 @@
     "output": "stylelint --config=.stylelintrc.json --print-config output.json > output.json"
   },
   "peerDependencies": {
-    "stylelint": ">=13.13"
+    "stylelint": ">=15"
   },
   "devDependencies": {
-    "stylelint": "^14.16.0",
-    "tape": "^5.6.1"
+    "stylelint": "^15.10.2",
+    "tape": "^5.6.6"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^29.0.0"
+    "stylelint-config-standard": "^34.0.0"
   }
 }
