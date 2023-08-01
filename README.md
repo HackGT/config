@@ -26,8 +26,6 @@ ensure all of our code is written in the same format and our code style is consi
 These steps will setup `eslint`, `prettier`, and `stylelint` for a TypeScript React app.
 
 ```bash
-npm install --save-dev @hex-labs/eslint-config-react @hex-labs/prettier-config @hex-labs/stylelint-config eslint prettier stylelint
-
 yarn add --dev @hex-labs/eslint-config-react @hex-labs/prettier-config @hex-labs/stylelint-config eslint prettier stylelint
 ```
 
@@ -56,8 +54,6 @@ To run, add a `lint` script to `package.json`
 These steps will setup `eslint`, `prettier`, and `tsconfig` for a TypeScript Node app.
 
 ```bash
-npm install --save-dev @hex-labs/eslint-config @hex-labs/prettier-config @hex-labs/tsconfig eslint prettier
-
 yarn add --dev @hex-labs/eslint-config @hex-labs/prettier-config @hex-labs/tsconfig eslint prettier
 ```
 
