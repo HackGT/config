@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.4](https://github.com/HackGT/config/compare/v1.4.3...v1.4.4) (2023-08-06)
+
+
+### Bug Fixes
+
+* make no-unused-vars a warning for typescript ([676b044](https://github.com/HackGT/config/commit/676b0442340075f9229c9f9f6dda8ea4c2044e66))
+
 ### [1.4.3](https://github.com/HackGT/config/compare/v1.4.2...v1.4.3) (2023-08-06)
 
 
