@@ -89,6 +89,7 @@ module.exports = {
         ignoreGlobals: false,
       },
     ], // Make this a warning not an error
+    "prefer-const": "warn", // Make this a warning not an error
 
     "react/prop-types": ["off"], // Not needed
     "react/jsx-props-no-spreading": ["off"], // Not needed
