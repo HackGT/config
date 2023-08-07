@@ -45,7 +45,7 @@ To run, add a `lint` script to `package.json`
 
 ```json
 "scripts": {
-  "lint": "eslint src/ --fix; stylelint src/**/*.css --fix; prettier src/ --write"
+  "lint": "eslint src/ --fix; stylelint src/**/*.css --fix; prettier . --write"
 }
 ```
 
@@ -76,7 +76,7 @@ To run, add a `lint` script to `package.json`
 
 ```json
 "scripts": {
-  "lint": "eslint src/ --fix; prettier src/ --write"
+  "lint": "eslint src/ --fix; prettier . --write"
 }
 ```
 
